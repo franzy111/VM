@@ -1,0 +1,19 @@
+begin
+input 101
+input 102
+set 103 0
+set 104 0
+flag condition
+cmp 101 102
+jz answer
+secondMore goto1
+firstMore goto2
+flag goto1
+sub 102 101 102
+jump condition
+flag goto2
+sub 101 102 101
+jump condition
+flag answer
+print 101
+end
