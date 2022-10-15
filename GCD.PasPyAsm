@@ -1,8 +1,6 @@
 begin
 input 101
 input 102
-set 103 0
-set 104 0
 flag condition
 cmp 101 102
 jz answer
